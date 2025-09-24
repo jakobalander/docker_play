@@ -1,0 +1,3 @@
+FROM debian:trixie-slim
+COPY a.out /root/a.out
+CMD /root/a.out
